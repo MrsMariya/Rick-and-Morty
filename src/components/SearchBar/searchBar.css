@@ -1,0 +1,93 @@
+form {
+  display: flex;
+  justify-content: space-between;
+  background: #0e101c;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid white;
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+label {
+  line-height: 2;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+  padding: 5px;
+}
+
+button[type="submit"],
+input[type="search"] {
+  background: #ec5990;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+
+input[type="search"]:hover {
+  background: #bf1650;
+}
+
+button[type="submit"]:active,
+input[type="button"]:active,
+input[type="search"]:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: 2px solid transparent;
+  opacity: 0.8;
+}
+
+input:disabled {
+  opacity: 0.4;
+}
+
+input[type="button"]:hover {
+  transition: 0.3s all;
+}
+.search-input,
+input[type="search"] {
+  background-color: #ec5990;
+  background-repeat: no-repeat;
+  background-image: url(../../../public/search.svg);
+  background-size: 20px;
+  background-position: right 15px center;
+}
+
+button[type="submit"],
+input[type="button"],
+input[type="search"] {
+  -webkit-appearance: none;
+}
+
+hr {
+  margin-top: 30px;
+}
+
+button {
+  display: block;
+  appearance: none;
+  border: 1px solid #333;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.buttonsFilter {
+  display: flex;
+}

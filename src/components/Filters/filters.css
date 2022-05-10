@@ -1,0 +1,24 @@
+.page {
+  display: flex;
+  margin: auto;
+  max-width: 300px;
+}
+
+.currentPage {
+  background: #ec5990;
+  color: white;
+}
+
+.myCheck {
+  background: #ec5990;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid white;
+  width: 115px;
+}
+
+.filters {
+  display: flex;
+  align-items: stretch;
+  margin-top: 20px;  
+}
